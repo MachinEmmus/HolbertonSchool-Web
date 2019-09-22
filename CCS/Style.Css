@@ -1,0 +1,173 @@
+body{
+  background-color: #E8E8E8;
+  font-family: "Madera", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-size: 1.15625rem;
+  line-height: 28px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+p{
+  margin-bottom: 1.6em;
+}
+ h1{
+   font-size: 2rem;
+   line-height: 1.6rem;
+ }
+
+ #logo{
+  width: 90px; height: 50px;
+}
+
+ .Header{
+   background: black;
+   color: blanchedalmond;
+   padding: 1.5rem 0;
+
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+ }
+ 
+ .Header a{
+   color: whitesmoke;
+   text-decoration: none;
+ }
+   
+
+ .logo-nav-conatainer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+
+ .navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+ }
+
+ .navigation ul li{
+   display:  inline-block;
+ }
+
+ .navigation ul li a {
+   display: block;
+   padding: 0.5rem 1rem;
+   transition: all 0.45 linear;
+   border-radius: 5px; 
+ }
+
+ .navigation ul li a:hover{
+    background: #5a5a5a;
+ }
+
+ .main
+{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+.articulos
+{
+    margin-right: 25px;
+    margin-bottom: 0px;
+    flex: 2;
+    overflow-y: auto;
+}
+
+.comentarios
+{
+    margin-bottom: 0px;
+    flex: 1;
+    overflow-y: auto;
+ 
+}
+
+.eS2014{
+  width: 100%; height: 400px;
+}
+
+.MyTweet, .MyTweet2 {
+position: relative;
+z-index: -1;
+}
+
+main{
+  padding:6rem;
+}
+
+ footer{
+  background: #f2f2f2;
+  padding: 3rem 0;
+  text-align: center;
+ }
+
+.small
+{
+  width: 500px;
+  height: 350px;
+}
+
+.Logos{
+width: 100%; height: 400px;
+}
+
+.Moment{
+text-align: center;
+}
+
+.click{
+  text-align: center;
+}
+
+ .menuicon{
+   display: none
+ }
+
+@media only screen and (max-width: 767px){
+  
+.menuicon{
+  display: block;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+  .navigation{
+    width: 100%;
+   margin-top: 1rem; 
+  }
+
+  .navigation ul{
+    display: none;
+  }
+
+  .navigation ul.show{
+    display: block;
+  }
+  
+  .navigation ul li{
+     display: block;
+   }
+  
+   .navigation ul li a {
+     display: block;
+     padding: 0.5rem 1rem;
+     transition: all 0.45 linear;
+     border-radius: 5px; 
+   }
+  
+   .navigation ul li a:hover{
+      background: #5a5a5a;
+   }
+}
+
+
